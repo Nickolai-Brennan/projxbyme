@@ -1,0 +1,33 @@
+/YourRepositoryName
+│
+├── /content                 # Folder for Ghost content
+│   ├── /data                # Database files (if applicable)
+│   ├── /images              # Images uploaded to the Ghost blog
+│   ├── /themes              # Custom themes for Ghost
+│   │   ├── /your-theme      # Folder for your custom theme
+│   │   │   ├── assets       # Theme assets (CSS, JS, images)
+│   │   │   ├── default.hbs   # Default Handlebars template
+│   │   │   ├── partials      # Partials for the theme
+│   │   │   └── package.json   # Theme configuration
+│   │   └── /default-theme    # Default Ghost theme
+│   └── /posts               # Markdown files for blog posts
+│
+├── /design                  # Folder for design assets and code
+│   ├── /css                 # CSS files for styling
+│   │   ├── styles.css       # Main stylesheet
+│   │   └── responsive.css    # Responsive design styles
+│   ├── /images              # Images for the website
+│   │   ├── logo.png         # Logo image
+│   │   └── banner.jpg       # Banner image
+│   ├── /js                  # JavaScript files for functionality
+│   │   ├── script.js        # Main JavaScript file
+│   │   └── utils.js         # Utility JavaScript functions
+│   └── index.html           # Static HTML file for design reference
+│
+├── /changelog               # Folder for changelog entries
+│   ├── CHANGELOG.md        # Main changelog file
+│   ├── entry_001.md        # Changelog entry example
+│   ├── entry_002.md        # Changelog entry example
+│   └── entry_003.md        # Changelog entry example
+│
+└── README.md                # Main README file
