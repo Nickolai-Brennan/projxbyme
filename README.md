@@ -1,5 +1,7 @@
 # Receipts
 
+# Receipts
+
 ```plaintext
 Receipt {
     Date: "May 5, 2024"
